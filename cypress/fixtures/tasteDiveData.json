@@ -1,0 +1,27 @@
+
+[
+    {
+        "name": "ABBA",
+        "type": "",
+        "info": 0,
+        "limit": 10
+    },
+    {
+        "name": "The cardigans",
+        "type": "music",
+        "info": 1,
+        "limit": 15
+    },
+    {
+        "name": "balavoine",
+        "type": "",
+        "info": 1,
+        "limit": 20
+    },
+    {
+        "name": "Pomme",
+        "type": "music",
+        "info": 0,
+        "limit": 5 
+    }
+]

@@ -38,7 +38,7 @@ Cypress.Commands.add('similarSearchN', (sName, sType, nInfo, nLimit) => {
    // cy.request('https://tastedive.com/api/similar?q='+sName+'&type='+sType+'&limit='+nLimit+'&info='+nInfo+'&k=435163-testapi-GMXUXISO');     
 
     cy.request({
-        url: 'https://tastedive.com/api/similar',
+        url: '/api/similar',
         qs: {
             search: sName,
             type: sType,

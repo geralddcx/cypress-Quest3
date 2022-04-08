@@ -3,7 +3,7 @@
 describe('essai', () => {
     const NewSearch = require('../fixtures/tasteDiveData.json');
 
-    it.only('cas pour ABBA et une limite de 10', () => {
+    it('cas pour ABBA et une limite de 10', () => {
         cy.log(NewSearch);
 
         cy.similarSearchQ(NewSearch[0])

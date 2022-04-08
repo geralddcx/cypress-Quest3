@@ -40,7 +40,7 @@ Cypress.Commands.add('similarSearchN', (sName, sType, nInfo, nLimit) => {
     cy.request({
         url: '/api/similar',
         qs: {
-            search: sName,
+            q: sName,
             type: sType,
             info: nInfo,
             limit: nLimit
